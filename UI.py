@@ -26,14 +26,6 @@ class PPGUI(tk.Tk):
         self.font = font.Font(family="Helvetica", size=15, weight="bold")
         self.resizable(True, True)
 
-        # Prowler Logo
-        # desired_width = 50  # in pixels
-        # desired_height = 50
-        # self.p_image = Image.open('prowler.ico')
-        # self.p_image = self.p_image.resize((desired_width, desired_height), Image.LANCZOS)
-        # self.p_image = ImageTk.PhotoImage(self.p_image)
-
-
         # Key Bindings
         self.bind("qq", lambda q: self.quit())
         self.bind("qd", lambda d: self.destroy())
